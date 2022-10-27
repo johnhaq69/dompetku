@@ -1,13 +1,16 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({Key? key}) : super(key: key);
+import '../models/transaction.dart';
+
+class TransactionItem extends StatelessWidget {
+  final Transaction transaction;
+  const TransactionItem({
+    Key? key,
+    required this.transaction,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    var transaction;
     return Container(
       margin: const EdgeInsets.all(10),
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
