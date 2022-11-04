@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/transaction.dart';
+import '../models/transaksi.dart';
 
 class TransactionItem extends StatelessWidget {
   final Transaction transaction;

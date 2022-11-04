@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-const COLOR_PRIMARY = Color.fromARGB(219, 17, 7, 210);
-const COLOR_TEXT = Color.fromARGB(229, 0, 0, 0);
+const COLOR_PRIMARY = Color.fromRGBO(6, 154, 233, 5);
+const COLOR_TEXT = Color.fromARGB(255, 24, 21, 21);

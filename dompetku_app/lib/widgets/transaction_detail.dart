@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/transaction.dart';
+import '../models/transaksi.dart';
 import 'transaction_item.dart';
 class DetailTransactionScreen extends StatelessWidget {
   const DetailTransactionScreen({Key? key}) : super(key: key);
